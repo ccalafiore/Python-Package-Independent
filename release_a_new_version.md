@@ -9,7 +9,7 @@
    Increase A by 1 and set B, C and D to 0, if the main structure of the package has changed and most of the code that
    was writen with the previous code does not work any longer.
 
-3. Update the version and release date in [independent/__init__.py](src/independent/__init__.py).
+3. Update the version and release date in [src/independent/__init__.py](src/independent/__init__.py).
 
 4. Update the version in [pyproject.toml](pyproject.toml).
 
@@ -43,7 +43,7 @@
       ```
    4. Close Command Prompt
 
-7. Uninstall independent from an environment myenv:
+7. Uninstall Independent from an environment myenv:
    ```
    conda activate myenv
    python -m pip uninstall independent
@@ -52,7 +52,7 @@
    - directory\of\anaconda\envs\myenv\Lib\site-packages\independent
    - directory\of\anaconda\envs\myenv\Lib\site-packages\independent-\*.\*.\*.\*.dist-info
 
-8. Re-install independent with:
+8. Re-install Independent with:
    ```
    python -m pip install --upgrade independent
    ```
