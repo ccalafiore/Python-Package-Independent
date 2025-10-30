@@ -1,5 +1,5 @@
 
 .idea
 
-independent.egg-info
+src/independent.egg-info
 dist
