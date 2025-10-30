@@ -1,14 +1,11 @@
-# CalaPy
+# Independent
 
-CalaPy is an undocumented python library that Dr Carmelo Calafiore developed for personal use. It is a collection of
-many python functions that Dr Carmelo tends to use in different projects.
+Independent is a general Python package with no dependencies. In other words, Independent is not dependent on any other
+external packages.
 
-In previous versions from 0.0.0 to 0.0.60, the name of this package was ccalafiore.
-
-You can install CalaPy by pip as:
-
+You can install Independent by pip as:
 ```
-pip install calapy
+python -m pip install independent
 ```
 
 ## Contacts
