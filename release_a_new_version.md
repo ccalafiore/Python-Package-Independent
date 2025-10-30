@@ -1,6 +1,6 @@
 # Release Check List
 
-1. Delete 2 folders: [independent.egg-info](independent.egg-info), [dist](dist).
+1. Delete 2 folders: [dist](dist), [src/independent.egg-info](src/independent.egg-info).
 
 2. Choose the name of the new version with the format A.B.C.D where A, B, C and D are positive integers. Increase D by 1
    if the new version only has bag fixes and marginal changes. Increase C by 1 and set D to 0 if the new version has
@@ -15,8 +15,8 @@
 
 5. Activate conda environment with:
    
-   1. Install anaconda
-   2. Create a conda environment with:
+   1. Install anaconda if you haven't;
+   2. Create a conda environment with the below if you haven't:
       ```
       conda create --name myenv
       ```
