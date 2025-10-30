@@ -1,12 +1,12 @@
 import datetime
 import importlib
 
-__version__ = '0.2.0.1'
+__version__ = '0.0.0.0'
 
 
 # TODO: Get the release timestamp automatically from PyPI???
-__release_day__ = 20
-__release_month_num__ = 6
+__release_day__ = 30
+__release_month_num__ = 10
 __release_year__ = 2025
 
 
@@ -19,11 +19,9 @@ __author__ = 'Calafiore Carmelo'
 __author_email__ = 'dr.carmelo.calafiore@gmail.com'
 __maintainer_email__ = 'dr.carmelo.calafiore@gmail.com'
 
-submodules = [
-    'array', 'check', 'clock', 'combinations', 'directory', 'download',
-    'format', 'image', 'lists', 'maths', 'mixamo', 'pkl', 'plot', 'preprocess',
-    'shutdown', 'stats', 'stimulation', 'strings', 'threading', 'txt']
+submodules = ['clock', 'directory', 'pkl', 'shutdown', 'threading']
 others = []
+
 __all__ = submodules + others
 
 for sub_module_m in submodules:
