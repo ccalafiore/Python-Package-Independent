@@ -1,6 +1,6 @@
 # Independent
 
-Independent is a general Python package with no dependencies. In other words, Independent is not dependent on any other
+Independent is a basic Python package with no dependencies. In other words, Independent is not dependent on any other
 external packages.
 
 You can install Independent by pip as:

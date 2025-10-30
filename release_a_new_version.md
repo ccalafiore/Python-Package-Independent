@@ -1,6 +1,6 @@
 # Release Check List
 
-1. Delete 2 folders: [basickit.egg-info](basickit.egg-info), [dist](dist).
+1. Delete 2 folders: [independent.egg-info](independent.egg-info), [dist](dist).
 
 2. Choose the name of the new version with the format A.B.C.D where A, B, C and D are positive integers. Increase D by 1
    if the new version only has bag fixes and marginal changes. Increase C by 1 and set D to 0 if the new version has
@@ -9,7 +9,7 @@
    Increase A by 1 and set B, C and D to 0, if the main structure of the package has changed and most of the code that
    was writen with the previous code does not work any longer.
 
-3. Update the version and release date in [basickit/__init__.py](src/basickit/__init__.py).
+3. Update the version and release date in [independent/__init__.py](src/independent/__init__.py).
 
 4. Update the version in [pyproject.toml](pyproject.toml).
 
@@ -33,7 +33,7 @@
       ```
    2. Change working directory to the repo's with:
       ```
-      cd "directory\of\Basik-Kit"
+      cd "directory\of\Python-Package-Independent"
       ```
 
    3. Run these:
@@ -43,17 +43,17 @@
       ```
    4. Close Command Prompt
 
-7. Uninstall basickit from an environment myenv:
+7. Uninstall independent from an environment myenv:
    ```
    conda activate myenv
-   python -m pip uninstall basickit
+   python -m pip uninstall independent
    ```
    If they still exist, manually delete the 2 directories:
-   - directory\of\anaconda\envs\myenv\Lib\site-packages\basickit
-   - directory\of\anaconda\envs\myenv\Lib\site-packages\basickit-\*.\*.\*.\*.dist-info
+   - directory\of\anaconda\envs\myenv\Lib\site-packages\independent
+   - directory\of\anaconda\envs\myenv\Lib\site-packages\independent-\*.\*.\*.\*.dist-info
 
-8. Re-install basickit with:
+8. Re-install independent with:
    ```
-   python -m pip install --upgrade basickit
+   python -m pip install --upgrade independent
    ```
 

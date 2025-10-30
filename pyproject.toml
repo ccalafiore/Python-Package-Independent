@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "basickit"
+name = "independent"
 version = "0.0.0.0"
 dependencies = [
 ]
@@ -14,16 +14,18 @@ authors = [
 maintainers = [
     {name = "Carmelo Calafiore", email = "dr.carmelo.calafiore@gmail.com"},
 ]
-description = "Basic Toolkit"
+description = "A basic Python package with no dependencies."
 readme = {file = "README.md", content-type = "text/markdown"}
 license = "MIT"
 license-files = ["LICENSE.txt"]
-keywords = ["basic", "tools", "toolkit", "toolbox", "kit", "utilities"]
+keywords = [
+    "independent", "not dependent", "no dependencies", "no requirements",
+    "basic", "general", "tools", "toolkit", "toolbox", "kit", "utilities"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 
 [project.urls]
-Repository = "https://github.com/ccalafiore/BasicKit"
-Issues = "https://github.com/ccalafiore/BasicKit/issues"
+Repository = "https://github.com/ccalafiore/Python-Package-Independent"
+Issues = "https://github.com/ccalafiore/Python-Package-Independent/issues"
