@@ -43,7 +43,7 @@
       ```
    4. Close Command Prompt
 
-7. Uninstall Independent from an environment myenv:
+7. Uninstall Independent from the conda environment myenv:
    ```
    conda activate myenv
    python -m pip uninstall independent
